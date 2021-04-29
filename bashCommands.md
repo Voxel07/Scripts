@@ -16,4 +16,4 @@ Find files that contain both strings. Works with ack and grep.
 ## wget
 ### Description
 Get singele files form a Git Repository
-wget https://raw.githubusercontent.com/username/reponame/path/to/file
+`wget https://raw.githubusercontent.com/username/reponame/path/to/file`
