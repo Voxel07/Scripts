@@ -8,7 +8,7 @@ Find files that match a given filename and contain a specific string
 ## ack/grep
 ### Description:
 Find files that contain both strings. Works with ack and grep. 
-### Comand:
+### Command:
 `ack secondaryString $(ack -l primaryString path/to/dir)`
 #### Options:
 `-l` returns filename and not the line
@@ -16,5 +16,5 @@ Find files that contain both strings. Works with ack and grep.
 ## wget
 ### Description
 Get singele files form a Git Repository:
-
+### Command: 
 `wget https://raw.githubusercontent.com/username/reponame/path/to/file`
