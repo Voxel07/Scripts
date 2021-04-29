@@ -12,3 +12,8 @@ Find files that contain both strings. Works with ack and grep.
 `ack secondaryString $(ack -l primaryString path/to/dir)`
 #### Options:
 `-l` returns filename and not the line
+
+## wget
+### Description
+Get singele files form a Git Repository
+wget https://raw.githubusercontent.com/username/reponame/path/to/file
